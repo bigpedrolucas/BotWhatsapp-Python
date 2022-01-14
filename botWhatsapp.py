@@ -68,7 +68,7 @@ class WhatsappBot:
             time.sleep(10)
 
     def EnviarAmbos(self):
-        midia = "C:\\Users\\pluca\\OneDrive\\Documents\\Lucas\\Trabalho\\Python\\BotWhatsapp\\imagens\\mengo.jpg"
+        midia = "C:\\caminho\\para\\seu\\arquivo\\de\\midia.jpeg"
         mensagem = open("./mensagem.txt", 'r', encoding='UTF-8')
         mensagem = mensagem.read()
         self.driver.get('https://web.whatsapp.com')
